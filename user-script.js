@@ -21,7 +21,7 @@ $('td').each(function() {
     if($(this).css('background-image').toString().indexOf("bar") > -1)  {
         if($(this).css('background-image').toString().indexOf(".jpg") > -1)  {
         $(this).css("position","relative");
-        $(this).append('<span style="position: absolute; left: 5px; font-weight: 600;"></span>');
+        $(this).append('<span style="position: absolute; left: 6px; font-weight: 600;"></span>');
         $(this).find('span').html(tdWidthRounded + '%');
         };
     };
